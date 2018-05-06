@@ -12,6 +12,7 @@
 		CFD93FAB209DBFBB00AC72AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD93FA9209DBFBB00AC72AD /* Main.storyboard */; };
 		CFD93FAD209DBFBD00AC72AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD93FAC209DBFBD00AC72AD /* Assets.xcassets */; };
 		CFD93FB0209DBFBD00AC72AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD93FAE209DBFBD00AC72AD /* LaunchScreen.storyboard */; };
+		CFD93FB8209DDA0200AC72AD /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD93FB7209DDA0200AC72AD /* LaunchScreen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CFD93FAC209DBFBD00AC72AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD93FAF209DBFBD00AC72AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD93FB1209DBFBD00AC72AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD93FB7209DDA0200AC72AD /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CFD93FA9209DBFBB00AC72AD /* Main.storyboard */,
 				CFD93FAC209DBFBD00AC72AD /* Assets.xcassets */,
 				CFD93FAE209DBFBD00AC72AD /* LaunchScreen.storyboard */,
+				CFD93FB7209DDA0200AC72AD /* LaunchScreen2.storyboard */,
 				CFD93FB1209DBFBD00AC72AD /* Info.plist */,
 			);
 			path = Test;
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD93FB8209DDA0200AC72AD /* LaunchScreen2.storyboard in Resources */,
 				CFD93FB0209DBFBD00AC72AD /* LaunchScreen.storyboard in Resources */,
 				CFD93FAD209DBFBD00AC72AD /* Assets.xcassets in Resources */,
 				CFD93FAB209DBFBB00AC72AD /* Main.storyboard in Resources */,

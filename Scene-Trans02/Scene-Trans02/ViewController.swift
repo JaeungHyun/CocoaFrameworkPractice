@@ -20,6 +20,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func moveByNavi(_ sender: Any) {
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") else {
+            return
+        }
+        
+        self.navigationController?.pushViewController(uvc, animated: true)
+        
+    }
+    
+    @IBAction func movePresent(_ sender: Any) {
+        
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") else {
+            return
+        }
+        
+        self.present(uvc, animated: true)
+    }
+    
+    
 }
 

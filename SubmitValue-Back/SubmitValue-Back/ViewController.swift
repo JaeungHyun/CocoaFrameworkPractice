@@ -19,17 +19,18 @@ class ViewController: UIViewController {
     
     // 화면이 표시될 때 마다 실행되는 메소드
     override func viewWillAppear(_ animated: Bool) {
-        let ad = UIApplication.shared.delegate as? AppDelegate
+        let ud = UserDefaults.standard
         
-        if let email = ad?.paramEmail {
+        if let email = ud.string(forKey: "email") {
             resultEmail.text = email
         }
-        if let update = ad?.paramUpdate {
-            resultUpdate.text = update==true ? "자동갱신":"자동갱신안함"
-        }
-        if let interval = ad?.paramInterval {
-            resultInterval.text = "\(Int(interval))분마다"
-        }
+        
+        let update = ud.bool(forKey: "isUpdate")
+        resultUpdate.text = update==true ? "자동갱신":"자동갱신안함"
+        
+        let interval = ud.double(forKey: "interval")
+        resultInterval.text = "\(Int(interval))분마다"
+        
     }
 }
 
